@@ -58,7 +58,7 @@ namespace fawzi
         }
     }
 }
-```python
+```
 
 ## Output:
 
