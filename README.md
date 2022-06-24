@@ -1,28 +1,27 @@
-# Inheritance
+### EX NO : 08
+### DATE  : 01.06.2022
+# <p align="center">Inheritance</p>
 
 ## Aim:
 To write a C# program to print some messages using hierarchical inheritance.
-
 ## Algorithm:
-
-step 1:
+### step 1: 
 Create a base class.
 
-step 2:
+### step 2:
 Create two child class.
 
-step 3:
+### step 3:
 Create a constructor in the base class and print a message.
 
-step 4:
+### step 4:
 create a function in child class to print a message.
 
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 ## Program:
-
-```python
+```c#
 using System;
-namespace fawzi
-{
+namespace fawzi{
     public class vehicle
     {
         public vehicle()
@@ -45,8 +44,7 @@ namespace fawzi
             Console.Write(" to scooter");
         }
     }
-    public class program
-    {
+    public class program{
         public static void Main(string[] args)
         {
             car car = new car();
@@ -59,12 +57,8 @@ namespace fawzi
     }
 }
 ```
-
 ## Output:
-
-![output2](https://user-images.githubusercontent.com/75235022/173239309-5ab06789-d8c5-4ca6-aa53-9309edcf6a34.png)
-
+![image](https://user-images.githubusercontent.com/75235488/172887578-8084f80a-4634-40dc-9ec2-04761992270a.png)
 
 ## Result
-
 C# program to print some messages using hierarchical inheritance is implemented successfully.
